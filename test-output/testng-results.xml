@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GirishContractsADFAutomation" duration-ms="24584" started-at="2019-03-19T09:15:45Z" finished-at="2019-03-19T09:16:10Z">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="24584" started-at="2019-03-19T09:15:45Z" finished-at="2019-03-19T09:16:10Z">
+      <class name="com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@53b32d7]" name="setup" is-config="true" duration-ms="5853" started-at="2019-03-19T09:15:45Z" finished-at="2019-03-19T09:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@53b32d7]" name="loginTest" duration-ms="15108" started-at="2019-03-19T09:15:51Z" finished-at="2019-03-19T09:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@53b32d7]" name="tearDown" is-config="true" duration-ms="3591" started-at="2019-03-19T09:16:06Z" finished-at="2019-03-19T09:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- GirishContractsADFAutomation -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GirishContractsADFAutomation]">
+  <test thread-count="5" name="SampleTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [GirishContractsADFAutomation] -->
