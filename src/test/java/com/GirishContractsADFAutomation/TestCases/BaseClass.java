@@ -1,4 +1,8 @@
 package com.GirishContractsADFAutomation.TestCases;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.HashMap;
+
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +19,7 @@ import com.GirishContractsADFAutomation.Utilities.ReadConfig;
 public class BaseClass {
 	
 	ReadConfig readConfig=new ReadConfig();
-	
+	public static HashMap<String, String> hashampcsv = new HashMap<String, String>();
 	public String url=readConfig.getConfigPropertyValue("url");
 	public String username=readConfig.getConfigPropertyValue("username");
 	public String password=readConfig.getConfigPropertyValue("password");
@@ -41,9 +45,13 @@ public class BaseClass {
 		
 	}
 	
+	
+	
+	/**
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
 	}
+	**/
 
 }

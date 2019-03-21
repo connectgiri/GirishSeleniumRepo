@@ -7,7 +7,6 @@
         <methods>
           <include name="loginTest"/>
           <include name="setup"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest -->
     </classes>

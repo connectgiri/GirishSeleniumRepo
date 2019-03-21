@@ -12,7 +12,7 @@ public class ReadConfig {
 		
 	
 		try {
-			File src=new File("C:\\Users\\ginallap.ORADEV\\eclipse-workspace\\GirishContractsADFAutomation\\Configuration\\Config.properties");
+			File src=new File(System.getProperty("user.dir")+"\\Configuration\\Config.properties");
 			FileInputStream fis;
 			fis = new FileInputStream(src);
 			pro=new Properties();

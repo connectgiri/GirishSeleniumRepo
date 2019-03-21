@@ -9,10 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">GirishContractsADFAutomation</th></tr>
-<tr><td><a href="#t0">SampleTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">24,584</td><td></td><td></td></tr>
+<tr><td><a href="#t0">SampleTest</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">31,370</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">GirishContractsADFAutomation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SampleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1552986951480</td><td rowspan="1">15108</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">GirishContractsADFAutomation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SampleTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest</td><td><a href="#m0">navigate_workarea</a></td><td rowspan="1">1553148722829</td><td rowspan="1">5039</td></tr><tr><th colspan="4">SampleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest</td><td><a href="#m1">login</a></td><td rowspan="1">1553148701365</td><td rowspan="1">5478</td></tr><tr class="passedeven"><td><a href="#m2">logout</a></td><td rowspan="1">1553148706846</td><td rowspan="1">15980</td></tr></tbody>
 </table>
-<h2>SampleTest</h2><h3 id="m0">com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SampleTest</h2><h3 id="m0">com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest#navigate_workarea</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #pt1\:_UISmmLink
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GINALLAP-LAP&apos;, ip: &apos;10.159.247.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.5.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 34208, moz:profile: C:\Users\ginallap.ORADEV\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 50369276-7a0e-47c3-919b-ffd9ce0322b9
+*** Element info: {Using=id, value=pt1:_UISmmLink}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.GirishContractsADFAutomation.PageObjects.HomePage.navigate_Workarea(HomePage.java:35)
+	at com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest.navigate_workarea(TC_01_LoginTest.java:22)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
