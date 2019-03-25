@@ -150,10 +150,10 @@
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #pt1\:_UISmmLink
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;GINALLAP-LAP&apos;, ip: &apos;10.159.247.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+System info: host: &apos;GINALLAP-LAP&apos;, ip: &apos;10.209.166.85&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.5.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 34208, moz:profile: C:\Users\ginallap.ORADEV\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 50369276-7a0e-47c3-919b-ffd9ce0322b9
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.5.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21704, moz:profile: C:\Users\ginallap.ORADEV\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8b61e07a-caea-45ac-b9b9-f1e6184c06dd
 *** Element info: {Using=id, value=pt1:_UISmmLink}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -167,9 +167,9 @@ Session ID: 50369276-7a0e-47c3-919b-ffd9ce0322b9
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.GirishContractsADFAutomation.PageObjects.HomePage.navigate_Workarea(HomePage.java:35)
-	at com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest.navigate_workarea(TC_01_LoginTest.java:22)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.GirishContractsADFAutomation.PageObjects.HomePage.navigate_Workarea(HomePage.java:36)
+	at com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest.navigate_workarea(TC_01_LoginTest.java:26)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -210,6 +210,7 @@ Session ID: 50369276-7a0e-47c3-919b-ffd9ce0322b9
 &lt;suite name=&quot;GirishContractsADFAutomation&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SampleTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;TestCaseName&quot; value=&quot;TC_01_LoginTest&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest&quot;/&gt;
     &lt;/classes&gt;
@@ -255,20 +256,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'logout')
 data.setCell(0, 2, 'com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest')
-data.setCell(0, 3, 15980);
+data.setCell(0, 3, 15813);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login')
+data.setCell(1, 1, 'navigate_workarea')
 data.setCell(1, 2, 'com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest')
-data.setCell(1, 3, 5478);
+data.setCell(1, 3, 10034);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'navigate_workarea')
+data.setCell(2, 1, 'login')
 data.setCell(2, 2, 'com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest')
-data.setCell(2, 3, 5039);
+data.setCell(2, 3, 4764);
 window.suiteTableData['GirishContractsADFAutomation']= { tableData: data, tableDiv: 'times-div-GirishContractsADFAutomation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-GirishContractsADFAutomation">
               </div> <!-- times-div-GirishContractsADFAutomation -->
             </div> <!-- times-div -->
@@ -296,23 +297,31 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(Firefox)</span>
+                <span class="method-name">setreporting(TC_01_LoginTest)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">55 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">4837 ms</span>
+                <span class="method-start">5081 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logout</span>
-                <span class="method-start">10318 ms</span>
+                <span class="method-start">9858 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">navigate_workarea</span>
-                <span class="method-start">26301 ms</span>
+                <span class="method-start">25673 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35709 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

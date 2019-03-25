@@ -39,6 +39,11 @@
 </build>
 
   <dependencies>
+ <dependency>
+     <groupId>com.aventstack</groupId>
+     <artifactId>extentreports</artifactId>
+     <version>3.1.5</version>
+</dependency>
      <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -80,6 +85,12 @@
     <groupId>org.sikuli</groupId>
     <artifactId>sikuli-api</artifactId>
     <version>1.2.0</version>
+</dependency>
+    <dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.3.0</version>
+    <scope>test</scope>
 </dependency>
 </dependencies>
     

@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 import com.GirishContractsADFAutomation.Utilities.ReadConfig;
+import com.GirishContractsADFAutomation.Utilities.Reporting;
 
 
 
@@ -24,7 +25,15 @@ public class BaseClass {
 	public String username=readConfig.getConfigPropertyValue("username");
 	public String password=readConfig.getConfigPropertyValue("password");
 	public static WebDriver driver;
+	Reporting reporting=new Reporting();
 		
+	@Parameters("TestCaseName")
+	@BeforeClass
+	public void setreporting(String TC) throws Exception {
+		
+		reporting.setTestCaseName(TC);
+	}
+	
 	@Parameters("browser")
 	@BeforeClass
 	public void setup(String br) {
@@ -48,10 +57,17 @@ public class BaseClass {
 	
 	
 	/**
-	@AfterClass
+	@throws Exception 
+	 * @AfterClass
 	public void tearDown() {
 		driver.quit();
 	}
 	**/
+	
+	@AfterClass
+	public void tearDown() throws Exception {
+		reporting.initializeHtmlReport("C:\\Users\\ginallap.ORADEV\\eclipse-workspace\\GirishContractsADFAutomation\\ResultFiles\\25-March-19");
+	}
+
 
 }

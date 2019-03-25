@@ -2,12 +2,23 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="GirishContractsADFAutomation" duration-ms="31370" started-at="2019-03-21T06:11:36Z" finished-at="2019-03-21T06:12:07Z">
+  <suite name="GirishContractsADFAutomation" duration-ms="35736" started-at="2019-03-25T20:20:32Z" finished-at="2019-03-25T20:21:08Z">
     <groups>
     </groups>
-    <test name="SampleTest" duration-ms="31370" started-at="2019-03-21T06:11:36Z" finished-at="2019-03-21T06:12:07Z">
+    <test name="SampleTest" duration-ms="35736" started-at="2019-03-25T20:20:32Z" finished-at="2019-03-25T20:21:08Z">
       <class name="com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@343f4d3d]" name="setup" is-config="true" duration-ms="4819" started-at="2019-03-21T06:11:36Z" finished-at="2019-03-21T06:11:41Z">
+        <test-method status="PASS" signature="setreporting(java.lang.String)[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@59ec2012]" name="setreporting" is-config="true" duration-ms="55" started-at="2019-03-25T20:20:32Z" finished-at="2019-03-25T20:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01_LoginTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setreporting -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@59ec2012]" name="setup" is-config="true" duration-ms="4997" started-at="2019-03-25T20:20:32Z" finished-at="2019-03-25T20:20:37Z">
           <params>
             <param index="0">
               <value>
@@ -18,34 +29,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@343f4d3d]" name="login" duration-ms="5478" started-at="2019-03-21T06:11:41Z" finished-at="2019-03-21T06:11:46Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@59ec2012]" name="login" duration-ms="4764" started-at="2019-03-25T20:20:37Z" finished-at="2019-03-25T20:20:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@343f4d3d]" name="logout" duration-ms="15980" started-at="2019-03-21T06:11:46Z" finished-at="2019-03-21T06:12:02Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@59ec2012]" name="logout" duration-ms="15813" started-at="2019-03-25T20:20:42Z" finished-at="2019-03-25T20:20:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="FAIL" signature="navigate_workarea()[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@343f4d3d]" name="navigate_workarea" duration-ms="5039" started-at="2019-03-21T06:12:02Z" finished-at="2019-03-21T06:12:07Z">
+        <test-method status="FAIL" signature="navigate_workarea()[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@59ec2012]" name="navigate_workarea" duration-ms="10034" started-at="2019-03-25T20:20:58Z" finished-at="2019-03-25T20:21:08Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: #pt1\:_UISmmLink
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'GINALLAP-LAP', ip: '10.159.247.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+System info: host: 'GINALLAP-LAP', ip: '10.209.166.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.5.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 34208, moz:profile: C:\Users\ginallap.ORADEV\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 50369276-7a0e-47c3-919b-ffd9ce0322b9
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.5.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21704, moz:profile: C:\Users\ginallap.ORADEV\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8b61e07a-caea-45ac-b9b9-f1e6184c06dd
 *** Element info: {Using=id, value=pt1:_UISmmLink}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #pt1\:_UISmmLink
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'GINALLAP-LAP', ip: '10.159.247.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+System info: host: 'GINALLAP-LAP', ip: '10.209.166.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.5.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 34208, moz:profile: C:\Users\ginallap.ORADEV\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 50369276-7a0e-47c3-919b-ffd9ce0322b9
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.5.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21704, moz:profile: C:\Users\ginallap.ORADEV\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8b61e07a-caea-45ac-b9b9-f1e6184c06dd
 *** Element info: {Using=id, value=pt1:_UISmmLink}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -63,9 +74,9 @@ at org.openqa.selenium.By$ById.findElement(By.java:188)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy10.click(Unknown Source)
-at com.GirishContractsADFAutomation.PageObjects.HomePage.navigate_Workarea(HomePage.java:35)
-at com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest.navigate_workarea(TC_01_LoginTest.java:22)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at com.GirishContractsADFAutomation.PageObjects.HomePage.navigate_Workarea(HomePage.java:36)
+at com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest.navigate_workarea(TC_01_LoginTest.java:26)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -97,6 +108,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate_workarea -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest@59ec2012]" name="tearDown" is-config="true" duration-ms="10" started-at="2019-03-25T20:21:08Z" finished-at="2019-03-25T20:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest -->
     </test> <!-- SampleTest -->
   </suite> <!-- GirishContractsADFAutomation -->

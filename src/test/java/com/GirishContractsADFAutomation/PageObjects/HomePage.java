@@ -32,6 +32,7 @@ public class HomePage extends BaseClass{
 	
 	public void navigate_Workarea(String Workarea) throws Exception
 	{
+		Thread.sleep(5000);
 		NavigatorIcon.click();
 		Thread.sleep(5000);
 		if(Workarea.equalsIgnoreCase("TermsLibrary"))

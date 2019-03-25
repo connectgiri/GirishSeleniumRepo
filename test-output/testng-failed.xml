@@ -3,11 +3,14 @@
 <suite name="Failed suite [GirishContractsADFAutomation]">
   <test thread-count="5" name="SampleTest(failed)">
     <parameter name="browser" value="Firefox"/>
+    <parameter name="TestCaseName" value="TC_01_LoginTest"/>
     <classes>
       <class name="com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest">
         <methods>
+          <include name="setreporting"/>
           <include name="setup"/>
           <include name="navigate_workarea"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest -->
     </classes>

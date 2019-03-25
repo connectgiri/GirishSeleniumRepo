@@ -10,10 +10,11 @@ import com.GirishContractsADFAutomation.Utilities.ReadConfig;
 
 public class LoginPage {
 	
-	WebDriver ldriver;
+	
 	ReadCSVTestData csv=new ReadCSVTestData();
 	ReadConfig configFile=new ReadConfig();
 	
+	WebDriver ldriver;
 	public LoginPage (WebDriver rdriver){
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
