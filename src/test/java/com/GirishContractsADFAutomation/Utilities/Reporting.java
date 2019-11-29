@@ -331,7 +331,9 @@ public static String WorkingDir= System.getProperty("user.dir")+"\\"+"ResultFile
 		writeLineToFile(htmlbufferWrite, "<html>\n");
 	    writeLineToFile(htmlbufferWrite, "<title>" + htmlReportSuiteName + " Automation Execution Summary Report </title>\n");
 	    writeLineToFile(htmlbufferWrite, "<head>\n");
-	    writeLineToFile(htmlbufferWrite, "<style>.MainHead { font-family: Calibri; font-size: 15pt ; border-bottom: thin groove lightblue; border-top: thin groove lightyellow; color: white; background:#663366;}</style>");
+//	    writeLineToFile(htmlbufferWrite, "<style>.MainHead { font-family: Calibri; font-size: 15pt ; border-bottom: thin groove lightblue; border-top: thin groove lightyellow; color: white; background:#663366;}</style>");
+	    
+	    writeLineToFile(htmlbufferWrite, "<style>.MainHead { font-family: Calibri; font-size: 15pt ; border-bottom: 4px dotted green ; border-top: 4px dotted blue; color: white; background:#442244;}</style>");
 	    
 	    writeLineToFile(htmlbufferWrite, "<style> .SubHead { font-family: Calibri; font-size: 12pt ; border-bottom: thin groove lightblue; border-top: thin groove lightyellow; color: green; background:white;}</style>\n");
 	    writeLineToFile(htmlbufferWrite, "<style> .ColumnHead {font-family: Calibri; font-size: 10pt ; text-align: center; border-bottom: solid lightyellow 1.0pt; border-top: solid black 1.5pt; color: black; background:#b0c4de;}</style>");

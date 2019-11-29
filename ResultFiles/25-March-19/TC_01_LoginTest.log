@@ -1,4 +1,4 @@
 SlNo	Status	StepName	StepDesc	Logger Time	ScreenShot
-0	Pass			2019-Mar-25 13:20:32	
-1	Pass		Login passed	2019-Mar-25 13:20:42	
-2	Pass		Navigate to workarea	2019-Mar-25 13:20:58	
+0	Pass			2019-Mar-25 16:18:06	
+1	Pass	Login	Login passed	2019-Mar-25 16:18:16	
+2	Pass	Logout	Logout from application	2019-Mar-25 16:18:32	

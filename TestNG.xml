@@ -2,7 +2,7 @@
 <suite name="GirishContractsADFAutomation">
 >
 <test name="SampleTest">
-<parameter name="browser" value="Firefox" />
+<parameter name="browser" value="Chrome" />
 <parameter name="TestCaseName" value="TC_01_LoginTest" />
 <classes>
 <class name="com.GirishContractsADFAutomation.TestCases.TC_01_LoginTest" />
